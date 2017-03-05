@@ -5,7 +5,7 @@ public class Exercicio12 {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("O resultado da soma é: " + somaVetor());
+		System.out.println("O resultado da soma e: " + somaVetor());
 	}
 
 	private static Integer somaVetor() {
