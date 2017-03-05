@@ -9,10 +9,10 @@ public class Exercicio01 {
     static void imprimeSoma() {
         Scanner s = new Scanner(System.in);
 
-        System.out.println("Digite o primeiro numero: ");
+        System.out.println("Digite primeiro numero: ");
         double numeroUm = s.nextDouble();
 
-        System.out.println("Digite o segundo numero: ");
+        System.out.println("Digite segundo numero: ");
         double numeroDois = s.nextDouble();
 
         System.out.println("O resultado da soma e: " + somar(numeroUm, numeroDois));
