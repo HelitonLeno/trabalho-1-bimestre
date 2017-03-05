@@ -15,9 +15,9 @@ public class Exercicio11 {
         System.out.println("Digite a data no formato: dd/MM/yyyy");
         String dataUsuario = s.nextLine();
 
-        //Caso a validação retorne true
+        //Caso a validacao retorne true
         if (validarData(dataUsuario)){
-            imprimeMesExtenso(dataUsuario);
+            imprimeMesExtenso( dataUsuario );
         }
     }
 
@@ -40,7 +40,7 @@ public class Exercicio11 {
         Date date = null;
 
         if (dataUsuario.length() < 10 || dataUsuario.length() > 10){
-            System.out.println("Data Inválida.");
+            System.out.println("Data Invalida.");
             System.exit(0);
         }
 
@@ -49,7 +49,7 @@ public class Exercicio11 {
             simpleDateFormat.setLenient(false);
             date = simpleDateFormat.parse(dataUsuario);
         } catch (ParseException e) {
-            System.out.println("Data Inválida.");
+            System.out.println("Data Invalida.");
             System.exit(0);
         }
         return true;
