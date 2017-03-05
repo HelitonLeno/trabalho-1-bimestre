@@ -15,7 +15,7 @@ public class Exercicio01 {
         System.out.println("Digite segundo numero: ");
         double numeroDois = s.nextDouble();
 
-        System.out.println("O resultado da soma �: " + somar(numeroUm, numeroDois));
+        System.out.println("O resultado da soma e: " + somar(numeroUm, numeroDois));
     }
 
     static double somar(double n1, double n2) {
